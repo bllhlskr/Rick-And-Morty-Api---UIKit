@@ -9,27 +9,30 @@
 /* Begin PBXBuildFile section */
 		9219D15126B4B8A700022E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219D15026B4B8A700022E26 /* AppDelegate.swift */; };
 		9219D15326B4B8A700022E26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219D15226B4B8A700022E26 /* SceneDelegate.swift */; };
-		9219D15526B4B8A700022E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219D15426B4B8A700022E26 /* ViewController.swift */; };
 		9219D15826B4B8A700022E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9219D15626B4B8A700022E26 /* Main.storyboard */; };
 		9219D15A26B4B8A900022E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9219D15926B4B8A900022E26 /* Assets.xcassets */; };
 		9219D15D26B4B8A900022E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9219D15B26B4B8A900022E26 /* LaunchScreen.storyboard */; };
 		9219D16D26B4B98900022E26 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219D16B26B4B98900022E26 /* MainTableViewCell.swift */; };
 		9219D16E26B4B98900022E26 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9219D16C26B4B98900022E26 /* MainTableViewCell.xib */; };
-		9219D17126B4BCFC00022E26 /* DetailsViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219D17026B4BCFC00022E26 /* DetailsViewViewController.swift */; };
+		9219D17126B4BCFC00022E26 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219D17026B4BCFC00022E26 /* DetailsViewController.swift */; };
+		922E8CBC26BE77A400B31E97 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E8CBB26BE77A400B31E97 /* HomeViewModel.swift */; };
+		922E8CC026BE782A00B31E97 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922E8CBF26BE782A00B31E97 /* CharacterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9219D14D26B4B8A600022E26 /* Rick And morty Api TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick And morty Api TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9219D15026B4B8A700022E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9219D15226B4B8A700022E26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9219D15426B4B8A700022E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9219D15426B4B8A700022E26 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9219D15726B4B8A700022E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9219D15926B4B8A900022E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9219D15C26B4B8A900022E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9219D15E26B4B8A900022E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9219D16B26B4B98900022E26 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		9219D16C26B4B98900022E26 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
-		9219D17026B4BCFC00022E26 /* DetailsViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewViewController.swift; sourceTree = "<group>"; };
+		9219D17026B4BCFC00022E26 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		922E8CBB26BE77A400B31E97 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		922E8CBF26BE782A00B31E97 /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +65,52 @@
 		9219D14F26B4B8A600022E26 /* Rick And morty Api TableView */ = {
 			isa = PBXGroup;
 			children = (
+				922E8CB626BE76D800B31E97 /* ViewModel */,
+				922E8CB826BE76FA00B31E97 /* Model */,
+				922E8CB726BE76E800B31E97 /* View */,
 				9219D15026B4B8A700022E26 /* AppDelegate.swift */,
 				9219D15226B4B8A700022E26 /* SceneDelegate.swift */,
-				9219D15426B4B8A700022E26 /* ViewController.swift */,
-				9219D17026B4BCFC00022E26 /* DetailsViewViewController.swift */,
-				9219D16B26B4B98900022E26 /* MainTableViewCell.swift */,
-				9219D16C26B4B98900022E26 /* MainTableViewCell.xib */,
-				9219D15626B4B8A700022E26 /* Main.storyboard */,
 				9219D15926B4B8A900022E26 /* Assets.xcassets */,
-				9219D15B26B4B8A900022E26 /* LaunchScreen.storyboard */,
 				9219D15E26B4B8A900022E26 /* Info.plist */,
 			);
 			path = "Rick And morty Api TableView";
+			sourceTree = "<group>";
+		};
+		922E8CB626BE76D800B31E97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				922E8CBB26BE77A400B31E97 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		922E8CB726BE76E800B31E97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9219D15626B4B8A700022E26 /* Main.storyboard */,
+				9219D16C26B4B98900022E26 /* MainTableViewCell.xib */,
+				9219D15B26B4B8A900022E26 /* LaunchScreen.storyboard */,
+				922E8CBA26BE775300B31E97 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		922E8CB826BE76FA00B31E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				922E8CBF26BE782A00B31E97 /* CharacterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		922E8CBA26BE775300B31E97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9219D17026B4BCFC00022E26 /* DetailsViewController.swift */,
+				9219D16B26B4B98900022E26 /* MainTableViewCell.swift */,
+				9219D15426B4B8A700022E26 /* HomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,10 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9219D17126B4BCFC00022E26 /* DetailsViewViewController.swift in Sources */,
-				9219D15526B4B8A700022E26 /* ViewController.swift in Sources */,
+				9219D17126B4BCFC00022E26 /* DetailsViewController.swift in Sources */,
+				922E8CBC26BE77A400B31E97 /* HomeViewModel.swift in Sources */,
+				9219D15526B4B8A700022E26 /* HomeViewController.swift in Sources */,
 				9219D15126B4B8A700022E26 /* AppDelegate.swift in Sources */,
 				9219D16D26B4B98900022E26 /* MainTableViewCell.swift in Sources */,
+				922E8CC026BE782A00B31E97 /* CharacterModel.swift in Sources */,
 				9219D15326B4B8A700022E26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +343,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eulersoft.Rick-And-morty-Api-TableView";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eulersoft.Rick-And-morty-Api";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eulersoft.Rick-And-morty-Api-TableView";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eulersoft.Rick-And-morty-Api";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
